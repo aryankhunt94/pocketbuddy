@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Signup page</title>
 <style>
         body {
             background-color: #2c2c2c;
@@ -70,7 +70,7 @@
 <body>
     <div class="signup-container">
         <div class="signup-title">Signup:</div>
-        <form>
+        <form action="saveuser" method="post">
             <div class="form-group">
                 <label for="firstName">firstName</label>
                 <input type="text" id="firstName" name="firstName" required>
@@ -116,10 +116,10 @@
                 <input type="tel" id="contactNum" name="contactNum" required>
             </div>
 
-            <button type="submit" class="submit-btn">[submit]</button>
+            <button type="submit" class="submit-btn">submit</button>
         </form>
     </div>
 </body>
 
-</body>
+
 </html>
