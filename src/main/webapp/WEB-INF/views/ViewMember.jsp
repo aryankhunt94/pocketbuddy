@@ -9,9 +9,20 @@
 <body>
 <h2>View Member</h2>
 
-MemberName : ${member.memberName }<br>
-Age :  ${member.age }<br>
-Profile :  ${member.profilePhoto }<br>
-House Id:  ${member.houseId }<br>
+<table border="1">
+	<tr>
+	<th>Member Name</th>
+	<th> Age </th>
+	<th>Profile Photo</th>
+	
+	</tr>
+	<tr>
+		<td>${member.memberName }<br></td>
+		<td>${member.age }<br></td>
+		<td>${member.profilePhoto }<br></td>
+
+</tr>
+
+</table>
 </body>
 </html>

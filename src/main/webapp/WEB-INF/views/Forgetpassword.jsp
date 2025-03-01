@@ -18,6 +18,7 @@
 	
 	</form>
 
-<a href="login">Login</a>
+<a href="login">Login
+</a>
 </body>
 </html>

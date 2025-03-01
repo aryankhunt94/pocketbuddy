@@ -17,6 +17,8 @@
 				<td>${m.memberName }</td>
 				<td>${m.age}</td>
 				<td>${m.profilePhoto }</td>
+				
+				<td><a href="viewmember?memberId=${m.memberId}">View</a> | <a href="deletemember?memberId=${m.memberId}">Delete</a> | Edit </td>
 			</tr>
 		</c:forEach>
 	</table>

@@ -10,7 +10,8 @@
 <div class="form-box" id="loginForm">
 	<h2 class="title">login</h2>
 	<form action="savestate" method="post">
-		<input type="text" name="firstname">
+	Statename: <input type="text" name="stateName"><br><br> 
+		<input type="submit" value="Save State">
 		</form>
 
 </div>
